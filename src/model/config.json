@@ -1,0 +1,115 @@
+{
+  "features": {
+    "cats": [
+      "Type",
+      "Breed1",
+      "Breed2",
+      "Gender",
+      "BreedPure",
+      "KnownMixed",
+      "VaccinatedName",
+      "DewormedName",
+      "SterilizedName",
+      "HealthName",
+      "StateName",
+      "FullColor"
+    ],
+    "conts": [
+      "Age",
+      "ColorAmt",
+      "Quantity",
+      "Fee",
+      "VideoAmt",
+      "PhotoAmt",
+      "UncertainRating",
+      "MaturitySize",
+      "FurLength",
+      "DescSentiment"
+    ]
+  },
+  "create_xy": {
+    "apply_scale": true,
+    "apply_ohe": true
+  },
+  "list_of_models":[
+    "Logistic Regression",
+    "SVC",
+    "Ridge",
+    "K-Neighbors Classifier",
+    "Decision Tree",
+    "Random Forest",
+    "XGB Classifier", 
+    "LGBM Classifier",
+    "AdaBoost Classifier"
+  ],
+  "run_modes":{
+    "reset_log":false,
+    "baseline_train": false,
+    "baseline_cv":false,
+    "HP_tuning":false,
+    "voting_classifier":false,
+    "use_existing_model":true
+  },
+  "baseline_train_params":{
+    "logging":true,
+    "log_filename": "output.csv",
+    "model_name": "test", 
+    "remarks": "test"
+  },
+  "baseline_cv_params":{
+    "logging":true,
+    "log_filename": "output.csv",
+    "model_name": "test", 
+    "remarks": "test",
+    "folds": 10
+  },
+  "HP_tuning_params":{
+    "tuners":[
+      "LGBClassifier",
+      "XGBClassifier",
+      "DecisionTreeClassifier"
+    ],
+    "study_name": "test3",
+    "n_trials": 1
+  },
+  "voting_classifier_params":{
+    "best_lgb_params": {
+      "max_depth": 13,
+      "n_estimators": 1943,
+      "reg_alpha": 0.2317016264712045,
+      "reg_lambda": 0.9493188224156814,
+      "min_child_weight": 10,
+      "subsample": 0.7992025873523917,
+      "colsample_bytree": 0.6304479368667911,
+      "learning_rate": 0.874287966624947
+    },
+    "best_xgb_params": {
+      "grow_policy": "lossguide",
+      "n_estimators": 1846,
+      "learning_rate": 0.5510155983507876,
+      "gamma": 0.015915169495075248,
+      "subsample": 0.9860605527771039,
+      "colsample_bytree": 0.630234425994959,
+      "max_depth": 24,
+      "min_child_weight": 14,
+      "reg_lambda": 9.037653461280712,
+      "reg_alpha": 4.172858499066994e-09
+    },
+    "best_dt_params": {
+      "criterion": "entropy",
+      "max_depth": 27,
+      "min_samples_leaf": 4,
+      "min_samples_split": 3
+    }
+  },
+  "voting_classifier_train_params":{
+    "logging":true,
+    "log_filename": "output.csv",
+    "model_name": "final_model", 
+    "remarks": "Final output for submission."
+  },
+  "use_existing_model":{
+    "model_path": "saved_model/final_model.sav",
+    "model_name": "final_model"
+  }
+}

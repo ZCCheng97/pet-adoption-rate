@@ -1,0 +1,192 @@
+Model,QWK,Accuracy,F2,Remarks
+
+Logistic Regression_no_bin_with bias_10cv,0.049378149261902,0.7222303741746148,0.06550560040500074,"Logistic Regression, no binning, with biased labels, with OHE and scaling_10cv"
+
+Logistic Regression_no_bin_with no bias_10cv,0.049378149261902,0.7222303741746148,0.06550560040500074,"Logistic Regression, no binning, with no biased labels, with OHE and scaling_10cv"
+
+SVC_no_bin_with no bias_10cv,0.04056177713960607,0.7225972120322817,0.05143560572381915,"SVC, no binning, with no biased labels, with OHE and scaling_10cv"
+
+Ridge_no_bin_with no bias_10cv,0.03589048338986711,0.7223037417461482,0.045432536857300074,"Ridge, no binning, with no biased labels, with OHE and scaling_10cv"
+
+K-Neighbors Classifier_no_bin_with no bias_10cv,0.10626515329081206,0.681951577402788,0.26014107709277806,"K-Neighbors Classifier, no binning, with no biased labels, with OHE and scaling_10cv"
+
+Decision Tree_no_bin_with no bias_10cv,0.13823070514453412,0.7098312545854732,0.23763179751107888,"Decision Tree, no binning, with no biased labels, with OHE and scaling_10cv"
+
+Random Forest_no_bin_with no bias_10cv,0.14184085478152958,0.7192956713132795,0.2167292744055358,"Random Forest, no binning, with no biased labels, with OHE and scaling_10cv"
+
+XGB Classifier_no_bin_with no bias_10cv,0.12940191671796314,0.7261922230374175,0.17662136536980666,"XGB Classifier, no binning, with no biased labels, with OHE and scaling_10cv"
+
+LGBM Classifier_no_bin_with no bias_10cv,0.1287408381725022,0.7275862068965517,0.17143824624153348,"LGBM Classifier, no binning, with no biased labels, with OHE and scaling_10cv"
+
+AdaBoost Classifier_no_bin_with no bias_10cv,0.06109642063623947,0.7238444607483492,0.07826795067719419,"AdaBoost Classifier, no binning, with no biased labels, with OHE and scaling_10cv"
+
+Logistic Regression_no_bin_with bias_10cv,0.21050488183431665,0.7402787967718268,0.26741627207574625,"Logistic Regression, no binning, with biased labels, with OHE and scaling_10cv"
+
+SVC_no_bin_with bias_10cv,0.18432931767471086,0.7417461482024944,0.21826414545533762,"SVC, no binning, with biased labels, with OHE and scaling_10cv"
+
+Ridge_no_bin_with bias_10cv,0.18293337231186477,0.7374908290535583,0.22955686339911646,"Ridge, no binning, with biased labels, with OHE and scaling_10cv"
+
+K-Neighbors Classifier_no_bin_with bias_10cv,0.1940075473299054,0.7162876008804109,0.31154634595394937,"K-Neighbors Classifier, no binning, with biased labels, with OHE and scaling_10cv"
+
+Decision Tree_no_bin_with bias_10cv,0.229847757321285,0.6897285399853265,0.4448453252901068,"Decision Tree, no binning, with biased labels, with OHE and scaling_10cv"
+
+Random Forest_no_bin_with bias_10cv,0.28360140577882104,0.7492296404988995,0.36857050061562724,"Random Forest, no binning, with biased labels, with OHE and scaling_10cv"
+
+XGB Classifier_no_bin_with bias_10cv,0.31155312334310625,0.7526779163609685,0.4091303955565208,"XGB Classifier, no binning, with biased labels, with OHE and scaling_10cv"
+
+LGBM Classifier_no_bin_with bias_10cv,0.31546493391396313,0.757593543653705,0.39974577500787756,"LGBM Classifier, no binning, with biased labels, with OHE and scaling_10cv"
+
+AdaBoost Classifier_no_bin_with bias_10cv,0.22398257278662226,0.7420396184886281,0.28496703772767185,"AdaBoost Classifier, no binning, with biased labels, with OHE and scaling_10cv"
+
+Logistic Regression_no_bin_with bias_UncertaintyRating_10cv,0.2106441939435954,0.7404255319148936,0.26718389545511556,"Logistic Regression, no binning, with biased labels, with UncertaintyRating, with OHE and scaling_10cv"
+
+SVC_no_bin_with bias_UncertaintyRating_10cv,0.18285561447797555,0.741085840058694,0.2178988697121959,"SVC, no binning, with biased labels, with UncertaintyRating, with OHE and scaling_10cv"
+
+Ridge_no_bin_with bias_UncertaintyRating_10cv,0.18247262236956566,0.7374174614820249,0.2290031014675648,"Ridge, no binning, with biased labels, with UncertaintyRating, with OHE and scaling_10cv"
+
+K-Neighbors Classifier_no_bin_with bias_UncertaintyRating_10cv,0.19702827273896845,0.7164343360234777,0.31631536327773346,"K-Neighbors Classifier, no binning, with biased labels, with UncertaintyRating, with OHE and scaling_10cv"
+
+Decision Tree_no_bin_with bias_UncertaintyRating_10cv,0.23230849167264372,0.6906089508437271,0.4467101288957112,"Decision Tree, no binning, with biased labels, with UncertaintyRating, with OHE and scaling_10cv"
+
+Random Forest_no_bin_with bias_UncertaintyRating_10cv,0.27944282717839314,0.7484225972120322,0.3635244930770392,"Random Forest, no binning, with biased labels, with UncertaintyRating, with OHE and scaling_10cv"
+
+XGB Classifier_no_bin_with bias_UncertaintyRating_10cv,0.3150564288846316,0.7537784299339692,0.41224242311095394,"XGB Classifier, no binning, with biased labels, with UncertaintyRating, with OHE and scaling_10cv"
+
+LGBM Classifier_no_bin_with bias_UncertaintyRating_10cv,0.31276062636643664,0.7567131327953044,0.39776958205003365,"LGBM Classifier, no binning, with biased labels, with UncertaintyRating, with OHE and scaling_10cv"
+
+AdaBoost Classifier_no_bin_with bias_UncertaintyRating_10cv,0.22398257278662226,0.7420396184886281,0.28496703772767185,"AdaBoost Classifier, no binning, with biased labels, with UncertaintyRating, with OHE and scaling_10cv"
+
+Logistic Regression_no_bin_with bias_UncertaintyRating_RescueRating_10cv,0.22818166065823284,0.7407190022010272,0.29649414982107575,"Logistic Regression, no binning, with biased labels, with UncertaintyRating and RescueRating, with OHE and scaling_10cv"
+
+SVC_no_bin_with bias_UncertaintyRating_RescueRating_10cv,0.20634991083074192,0.7452677916360968,0.2440623017297424,"SVC, no binning, with biased labels, with UncertaintyRating and RescueRating, with OHE and scaling_10cv"
+
+Ridge_no_bin_with bias_UncertaintyRating_RescueRating_10cv,0.2010107455538158,0.7387380777696257,0.255945632302813,"Ridge, no binning, with biased labels, with UncertaintyRating and RescueRating, with OHE and scaling_10cv"
+
+K-Neighbors Classifier_no_bin_with bias_UncertaintyRating_RescueRating_10cv,0.21828640179185546,0.7199559794570799,0.3424259590573781,"K-Neighbors Classifier, no binning, with biased labels, with UncertaintyRating and RescueRating, with OHE and scaling_10cv"
+
+Decision Tree_no_bin_with bias_UncertaintyRating_RescueRating_10cv,0.29805372177804235,0.7154071900220103,0.4989795187455809,"Decision Tree, no binning, with biased labels, with UncertaintyRating and RescueRating, with OHE and scaling_10cv"
+
+Random Forest_no_bin_with bias_UncertaintyRating_RescueRating_10cv,0.33771376809711395,0.766397652237711,0.41184560296680484,"Random Forest, no binning, with biased labels, with UncertaintyRating and RescueRating, with OHE and scaling_10cv"
+
+XGB Classifier_no_bin_with bias_UncertaintyRating_RescueRating_10cv,0.37958952012605485,0.7707263389581805,0.4801356887247656,"XGB Classifier, no binning, with biased labels, with UncertaintyRating and RescueRating, with OHE and scaling_10cv"
+
+LGBM Classifier_no_bin_with bias_UncertaintyRating_RescueRating_10cv,0.3803256568313547,0.7743947175348496,0.4682583830626784,"LGBM Classifier, no binning, with biased labels, with UncertaintyRating and RescueRating, with OHE and scaling_10cv"
+
+AdaBoost Classifier_no_bin_with bias_UncertaintyRating_RescueRating_10cv,0.24799942442756065,0.7415994130594277,0.32879942692118697,"AdaBoost Classifier, no binning, with biased labels, with UncertaintyRating and RescueRating, with OHE and scaling_10cv"
+
+Logistic Regression_no_bin_with bias_UncertaintyRating_NameorNO_10cv,0.2103795795928939,0.7401320616287601,0.26765307024595614,"Logistic Regression, no binning, with biased labels, with UncertaintyRating and NameorNO, with OHE and scaling_10cv"
+
+SVC_no_bin_with bias_UncertaintyRating_NameorNO_10cv,0.1836509359584904,0.7412325752017608,0.21876582960388302,"SVC, no binning, with biased labels, with UncertaintyRating and NameorNO, with OHE and scaling_10cv"
+
+Ridge_no_bin_with bias_UncertaintyRating_NameorNO_10cv,0.18361743185270077,0.7375641966250918,0.2304076072523285,"Ridge, no binning, with biased labels, with UncertaintyRating and NameorNO, with OHE and scaling_10cv"
+
+K-Neighbors Classifier_no_bin_with bias_UncertaintyRating_NameorNO_10cv,0.21186145933501935,0.7214233308877475,0.3272721007998448,"K-Neighbors Classifier, no binning, with biased labels, with UncertaintyRating and NameorNO, with OHE and scaling_10cv"
+
+Decision Tree_no_bin_with bias_UncertaintyRating_NameorNO_10cv,0.24068605130242907,0.6942039618488628,0.4523442278342255,"Decision Tree, no binning, with biased labels, with UncertaintyRating and NameorNO, with OHE and scaling_10cv"
+
+Random Forest_no_bin_with bias_UncertaintyRating_NameorNO_10cv,0.29181176544369547,0.7524578136463684,0.3729822383405628,"Random Forest, no binning, with biased labels, with UncertaintyRating and NameorNO, with OHE and scaling_10cv"
+
+XGB Classifier_no_bin_with bias_UncertaintyRating_NameorNO_10cv,0.3146397824948238,0.7537050623624358,0.4116111275642493,"XGB Classifier, no binning, with biased labels, with UncertaintyRating and NameorNO, with OHE and scaling_10cv"
+
+LGBM Classifier_no_bin_with bias_UncertaintyRating_NameorNO_10cv,0.31738991022038604,0.7582538517975055,0.4013398402442275,"LGBM Classifier, no binning, with biased labels, with UncertaintyRating and NameorNO, with OHE and scaling_10cv"
+
+AdaBoost Classifier_no_bin_with bias_UncertaintyRating_NameorNO_10cv,0.23040392811620675,0.7433602347762289,0.2920402125757643,"AdaBoost Classifier, no binning, with biased labels, with UncertaintyRating and NameorNO, with OHE and scaling_10cv"
+
+Logistic Regression_no_bin_with bias_UncertaintyRating_DescLength_10cv,0.2060293553611295,0.7391782831988261,0.26319071446095266,"Logistic Regression, no binning, with biased labels, with UncertaintyRating and DescLength, with OHE and scaling_10cv"
+
+SVC_no_bin_with bias_UncertaintyRating_DescLength_10cv,0.18559089463411865,0.7428466617754952,0.2168117660669457,"SVC, no binning, with biased labels, with UncertaintyRating and DescLength, with OHE and scaling_10cv"
+
+Ridge_no_bin_with bias_UncertaintyRating_DescLength_10cv,0.18167730726081716,0.7374908290535582,0.22738634672613892,"Ridge, no binning, with biased labels, with UncertaintyRating and DescLength, with OHE and scaling_10cv"
+
+K-Neighbors Classifier_no_bin_with bias_UncertaintyRating_DescLength_10cv,0.19970285433558826,0.717094644167278,0.3189479358103523,"K-Neighbors Classifier, no binning, with biased labels, with UncertaintyRating and DescLength, with OHE and scaling_10cv"
+
+Decision Tree_no_bin_with bias_UncertaintyRating_DescLength_10cv,0.2301904440961866,0.6892149669845928,0.44684872405298137,"Decision Tree, no binning, with biased labels, with UncertaintyRating and DescLength, with OHE and scaling_10cv"
+
+Random Forest_no_bin_with bias_UncertaintyRating_DescLength_10cv,0.2969487962295084,0.7579603815113719,0.36376119581886235,"Random Forest, no binning, with biased labels, with UncertaintyRating and DescLength, with OHE and scaling_10cv"
+
+XGB Classifier_no_bin_with bias_UncertaintyRating_DescLength_10cv,0.32525928019266015,0.7573000733675714,0.4197812124938293,"XGB Classifier, no binning, with biased labels, with UncertaintyRating and DescLength, with OHE and scaling_10cv"
+
+LGBM Classifier_no_bin_with bias_UncertaintyRating_DescLength_10cv,0.3137071347331048,0.7578136463683052,0.3959259640139762,"LGBM Classifier, no binning, with biased labels, with UncertaintyRating and DescLength, with OHE and scaling_10cv"
+
+AdaBoost Classifier_no_bin_with bias_UncertaintyRating_DescLength_10cv,0.22912070528428702,0.7437270726338958,0.28854512677160743,"AdaBoost Classifier, no binning, with biased labels, with UncertaintyRating and DescLength, with OHE and scaling_10cv"
+
+Logistic Regression_no_bin_with bias_UncertaintyRating_MSFLCont_10cv,0.20690400197352998,0.7391782831988262,0.26477102482325626,"Logistic Regression, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with OHE and scaling_10cv"
+
+SVC_no_bin_with bias_UncertaintyRating_MSFLCont_10cv,0.18495861688875365,0.7419662509170947,0.21859076483610548,"SVC, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with OHE and scaling_10cv"
+
+Ridge_no_bin_with bias_UncertaintyRating_MSFLCont_10cv,0.1837252226701131,0.7377842993396919,0.22988868970471915,"Ridge, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with OHE and scaling_10cv"
+
+K-Neighbors Classifier_no_bin_with bias_UncertaintyRating_MSFLCont_10cv,0.20446059171866615,0.7187820983125459,0.3221376280396281,"K-Neighbors Classifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with OHE and scaling_10cv"
+
+Decision Tree_no_bin_with bias_UncertaintyRating_MSFLCont_10cv,0.22776671514723018,0.6880410858400586,0.44560292963294845,"Decision Tree, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with OHE and scaling_10cv"
+
+Random Forest_no_bin_with bias_UncertaintyRating_MSFLCont_10cv,0.2930956536344407,0.752017608217168,0.37691323621973577,"Random Forest, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with OHE and scaling_10cv"
+
+XGB Classifier_no_bin_with bias_UncertaintyRating_MSFLCont_10cv,0.3146680953144887,0.7539985326485694,0.41054089838931385,"XGB Classifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with OHE and scaling_10cv"
+
+LGBM Classifier_no_bin_with bias_UncertaintyRating_MSFLCont_10cv,0.3177325373144019,0.7578136463683052,0.4033778115020376,"LGBM Classifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with OHE and scaling_10cv"
+
+AdaBoost Classifier_no_bin_with bias_UncertaintyRating_MSFLCont_10cv,0.22398257278662226,0.7420396184886281,0.28496703772767185,"AdaBoost Classifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with OHE and scaling_10cv"
+
+Logistic Regression_no_bin_with bias_UncertaintyRating_MSFLCont_Agebins_10cv,0.25877296918768733,0.7433602347762289,0.34236798879819696,"Logistic Regression, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with AgeBins instead of Age, with OHE and scaling_10cv"
+
+SVC_no_bin_with bias_UncertaintyRating_MSFLCont_Agebins_10cv,0.2225436080374672,0.7457813646368304,0.2700675410300374,"SVC, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with AgeBins instead of Age, with OHE and scaling_10cv"
+
+Ridge_no_bin_with bias_UncertaintyRating_MSFLCont_Agebins_10cv,0.24160189210278255,0.7408657373440939,0.31978643327931794,"Ridge, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with AgeBins instead of Age, with OHE and scaling_10cv"
+
+K-Neighbors Classifier_no_bin_with bias_UncertaintyRating_MSFLCont_Agebins_10cv,0.2078949920024841,0.7192956713132795,0.3264961161256416,"K-Neighbors Classifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with AgeBins instead of Age, with OHE and scaling_10cv"
+
+Decision Tree_no_bin_with bias_UncertaintyRating_MSFLCont_Agebins_10cv,0.22445802800521514,0.6873807776962583,0.44157156505761835,"Decision Tree, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with AgeBins instead of Age, with OHE and scaling_10cv"
+
+Random Forest_no_bin_with bias_UncertaintyRating_MSFLCont_Agebins_10cv,0.27643341517315073,0.7451944240645634,0.368511170462002,"Random Forest, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with AgeBins instead of Age, with OHE and scaling_10cv"
+
+XGB Classifier_no_bin_with bias_UncertaintyRating_MSFLCont_Agebins_10cv,0.3017318869977627,0.7520176082171679,0.3929259471162313,"XGB Classifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with AgeBins instead of Age, with OHE and scaling_10cv"
+
+LGBM Classifier_no_bin_with bias_UncertaintyRating_MSFLCont_Agebins_10cv,0.3002580295340792,0.7547322083639032,0.3809856984259992,"LGBM Classifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with AgeBins instead of Age, with OHE and scaling_10cv"
+
+AdaBoost Classifier_no_bin_with bias_UncertaintyRating_MSFLCont_Agebins_10cv,0.20951577432930296,0.7403521643433603,0.2655499357330485,"AdaBoost Classifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with AgeBins instead of Age, with OHE and scaling_10cv"
+
+Logistic Regression_no_bin_with bias_UncertaintyRating_MSFLCont_Photobins_10cv,0.2246084171166353,0.7421863536316948,0.2857735766865693,"Logistic Regression, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with PhotoAmtbins, with OHE and scaling_10cv"
+
+SVC_no_bin_with bias_UncertaintyRating_MSFLCont_Photobins_10cv,0.2082981760859358,0.7455612619222303,0.24650521942194312,"SVC, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with PhotoAmtbins, with OHE and scaling_10cv"
+
+Ridge_no_bin_with bias_UncertaintyRating_MSFLCont_Photobins_10cv,0.20454439185256357,0.7412325752017608,0.25418485777258376,"Ridge, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with PhotoAmtbins, with OHE and scaling_10cv"
+
+K-Neighbors Classifier_no_bin_with bias_UncertaintyRating_MSFLCont_Photobins_10cv,0.20144112015183152,0.7193690388848129,0.3152769951026893,"K-Neighbors Classifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with PhotoAmtbins, with OHE and scaling_10cv"
+
+Decision Tree_no_bin_with bias_UncertaintyRating_MSFLCont_Photobins_10cv,0.2316305040992584,0.6904622157006602,0.4462078764671923,"Decision Tree, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with PhotoAmtbins, with OHE and scaling_10cv"
+
+Random Forest_no_bin_with bias_UncertaintyRating_MSFLCont_Photobins_10cv,0.27843016517031305,0.7491562729273661,0.35911656772266703,"Random Forest, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with PhotoAmtbins, with OHE and scaling_10cv"
+
+XGB Classifier_no_bin_with bias_UncertaintyRating_MSFLCont_Photobins_10cv,0.31406625994773707,0.7532648569332355,0.41193240509768436,"XGB Classifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with PhotoAmtbins, with OHE and scaling_10cv"
+
+LGBM Classifier_no_bin_with bias_UncertaintyRating_MSFLCont_Photobins_10cv,0.3135958742568638,0.757373440939105,0.3968221300986646,"LGBM Classifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with PhotoAmtbins, with OHE and scaling_10cv"
+
+AdaBoost Classifier_no_bin_with bias_UncertaintyRating_MSFLCont_Photobins_10cv,0.2159196226627421,0.7415260454878944,0.2727213834684838,"AdaBoost Classifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with PhotoAmtbins, with OHE and scaling_10cv"
+
+voting_no_bin_with bias_UncertaintyRating_MSFLCont,0.2960077348641684,0.7307410124724871,0.44986449864498645,"VotingClassifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with OHE and scaling"
+
+Logistic Regression_no_bin_with bias_UncertaintyRating_MSFLCont_improvedsentiment10cv,0.20660455712560508,0.7391782831988262,0.2642515967077268,"Logistic Regression, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with improved sentiment,with OHE and scaling_10cv"
+
+SVC_no_bin_with bias_UncertaintyRating_MSFLCont_improvedsentiment10cv,0.19359995781700995,0.7446808510638296,0.2243802040262811,"SVC, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with improved sentiment,with OHE and scaling_10cv"
+
+Ridge_no_bin_with bias_UncertaintyRating_MSFLCont_improvedsentiment10cv,0.1831471346120578,0.7375641966250917,0.22958637085838177,"Ridge, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with improved sentiment,with OHE and scaling_10cv"
+
+K-Neighbors Classifier_no_bin_with bias_UncertaintyRating_MSFLCont_improvedsentiment10cv,0.21264151814312232,0.7214233308877477,0.3286564392627852,"K-Neighbors Classifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with improved sentiment,with OHE and scaling_10cv"
+
+Decision Tree_no_bin_with bias_UncertaintyRating_MSFLCont_improvedsentiment10cv,0.24476789612724348,0.6951577402787967,0.45718948477959315,"Decision Tree, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with improved sentiment,with OHE and scaling_10cv"
+
+Random Forest_no_bin_with bias_UncertaintyRating_MSFLCont_improvedsentiment10cv,0.2963761297025658,0.7575935436537049,0.36390133033654287,"Random Forest, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with improved sentiment,with OHE and scaling_10cv"
+
+XGB Classifier_no_bin_with bias_UncertaintyRating_MSFLCont_improvedsentiment10cv,0.31684169837703546,0.7541452677916362,0.41469488252276365,"XGB Classifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with improved sentiment,with OHE and scaling_10cv"
+
+LGBM Classifier_no_bin_with bias_UncertaintyRating_MSFLCont_improvedsentiment10cv,0.3185840926430445,0.7586940572267058,0.40202263512018926,"LGBM Classifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with improved sentiment,with OHE and scaling_10cv"
+
+AdaBoost Classifier_no_bin_with bias_UncertaintyRating_MSFLCont_improvedsentiment10cv,0.22364689383535014,0.7413059427732941,0.28668237720051676,"AdaBoost Classifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with improved sentiment,with OHE and scaling_10cv"
+
+voting__no_bin_with bias_UncertaintyRating_MSFLCont_improvedsentiment_10cv,0.29217126475443633,0.7292736610418196,0.44715447154471544,"VotingClassifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with sentiments, with OHE and scaling"
+
+voting__no_bin_with bias_UncertaintyRating_MSFLCont_10cv,0.2704556658919641,0.7212032281731474,0.4311279826464208,"VotingClassifier, no binning, with biased labels, with UncertaintyRating and MS+FL as conts, with OHE and scaling"
+
+final_model,0.3240027706474351,0.7410124724871606,0.47103410936654033,Final output for submission.
+
